@@ -9,6 +9,72 @@
     
 }
 
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 100;
+    align-items: center;
+    transition: 0.15s;
+     background-color: #7EB6E6; 
+     color: #CDE9F5;
+
+    font-family: playfair;
+    font-size: 19px;
+    font-weight: bold;
+    color: #CDE9F5;
+
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.icon-container{
+    position: relative;
+    color: #F8D3E5;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+
+.kiss-st{
+   margin: 0;
+   text-align: center;
+
+    display: inline-block;
+
+    font-size: 30px;
+}
+
+.search-bar{
+    height: 22px;
+    border-radius: 10px;
+   border: none;
+   font-family: playfair;
+   padding-left: 10px;
+   background-color: #F8D3E5;
+   margin-top: 2px;
+}
+
+.search-bar{
+    border: none;
+}
+
+.search-bar::placeholder{
+   color: #EA89B8;
+    border: none;
+     font-family: Figtree, Nunito, sans-serif;
+}
+
 .slogan-container{
     width: 100%;
     height: 100%;
@@ -37,6 +103,180 @@
         margin-bottom: 0;
 
         color: #423826;
+}
+
+.top-image-container{
+    position: relative;
+    width: 100%;
+    padding-top: 90px;
+}
+
+.top-image{
+   width: 100%;
+   height: 500px;
+   object-fit: cover;
+   object-position: top;
+}
+
+.second-image-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 25px;
+  row-gap: 40px;
+
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+@media (max-width: 800px){
+    .second-image-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 750px) and (min-width: 1000px){
+    .second-image-container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px){
+    .second-image-container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.second-image-container img{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 2px;
+}
+
+.second-image-container p{
+     font-family: Figtree, Nunito;
+    font-size: 20px;
+    width: 120px;
+    color: #423826;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+.shopnow-button{
+    position: absolute;
+
+    top: 53%;
+   left: 43%;
+    text-align: center;
+
+    font-size: 73px;
+    font-family: playfair;
+    color: #F7EEFD;
+    width: 200px;
+    transform: translate(-50% -50%);
+
+    border-radius: 10px;
+    border: none;
+    
+    background-color: rgb(162, 202, 108);
+    background-image: linear-gradient(to right, #A2CA6C, #678E34); 
+  
+    
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    
+}
+
+
+.add-to-cart-button{
+    width: 150px;
+    transform: translate(-50% -50%);
+   background-image: linear-gradient(to left, #F8D3E5, #F2AFBC); 
+    cursor: pointer;
+   transition: opacity, box-shadow 0.15s;
+
+    border-radius: 10px;
+    border: none;
+
+    font-family: Figtree, Nunito;
+    color: white;
+    font-size: 15px;
+
+    margin-bottom: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.add-to-cart-button:hover{
+    box-shadow: 5px 5px 10px #F7D1D8;
+
+}
+
+.add-to-cart-button:active{
+       opacity: 0.8;
+           border: none;
+           
+}
+
+.bottom-info {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  right: 0;
+  left: 0;
+  padding-left: 2%;
+  padding-bottom: 5%;
+  padding-top: 2%;
+
+  background-color: #7EB6E6;
+  background-image: linear-gradient(to right, #7EB6E6, #CDE9F5); 
+}
+
+.follow-text {
+  font-family: Figtree, Nunito, sans-serif;
+  color: #F8D3E5;
+  padding-bottom: 2px;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 45px;
+}
+
+.icons a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.fa-brands.fa-tiktok{
+  color: #F8D3E5;
+  font-size: clamp(18px, 2.5vw, 26px);
+}
+
+.fa-brands.fa-instagram{
+    color: #F8D3E5;
+  font-size: clamp(18px, 2.5vw, 26px);
+}
+
+.join-button{
+    background-color: #F8D3E5;
+    color: #423826;
+    font-family: Figtree, Nunito, sans-serif;
+    font-size: 16px;
+
+    border: none;
+    border-width: 1px;
+    border-radius: 2px;
+
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin-bottom: 20px;
 }
 
 .contact-text{
