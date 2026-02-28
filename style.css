@@ -301,17 +301,39 @@
     border-radius:0.125rem;
 }
 
-@media screen and (max-width: 600px){
+@media (max-width: 600px){
     .html,body {
         width: 100%;
     
     }
 }
 
-@media screen and (max-width: 601px) {
+@media (max-width: 601px) {
     .container{
         width: 100%;
     }
 }
+
+@media (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .container{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container{
+        width: 100%;
+    }
+}
+
+
+
+
 
 
