@@ -21,14 +21,14 @@
      color: #CDE9F5;
 
     font-family: playfair;
-    font-size: 118.75%;
+    font-size: 1.888rem;
     font-weight: bold;
     color: #CDE9F5;
 
-    padding-top: 125%;
-    padding-left: 62.5%;
-    padding-right: 62.5%;
-    padding-bottom: 250%;
+    padding-top:1.25rem;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
 
     overflow: hidden;
     position: fixed;
