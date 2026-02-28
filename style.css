@@ -21,14 +21,14 @@
      color: #CDE9F5;
 
     font-family: playfair;
-    font-size: 19px;
+    font-size: 118.75%;
     font-weight: bold;
     color: #CDE9F5;
 
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 40px;
+    padding-top: 125%;
+    padding-left: 62.5%;
+    padding-right: 62.5%;
+    padding-bottom: 250%;
 
     overflow: hidden;
     position: fixed;
@@ -42,7 +42,7 @@
     position: relative;
     color: #F8D3E5;
     display: flex;
-    gap: 15px;
+    gap: 93.75%;
     align-items: center;
 
 }
@@ -53,17 +53,17 @@
 
     display: inline-block;
 
-    font-size: 30px;
+    font-size: 187.5%;
 }
 
 .search-bar{
-    height: 22px;
-    border-radius: 10px;
+    height: 137.5%;
+    border-radius: 62.5%;
    border: none;
    font-family: playfair;
-   padding-left: 10px;
+   padding-left: 62.5%;
    background-color: #F8D3E5;
-   margin-top: 2px;
+   margin-top: 12.5%;
 }
 
 .search-bar{
@@ -98,9 +98,9 @@
  
 .ourbest-sellers{
     font-family: Arial;
-        font-size: 24.6px;
+        font-size: 153.75%;
         text-align: center;
-        margin-top: 30px;
+        margin-top: 187.5%;
         margin-bottom: 0;
 
         color: #423826;
@@ -109,12 +109,12 @@
 .top-image-container{
     position: relative;
     width: 100%;
-    padding-top: 90px;
+    padding-top: 5562.5%;
 }
 
 .top-image{
    width: 100%;
-   height: 500px;
+   height: 3125%;
    object-fit: cover;
    object-position: top;
 }
@@ -122,28 +122,28 @@
 .second-image-container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 25px;
-  row-gap: 40px;
+  column-gap: 156.25%;
+  row-gap: 250%;
 
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 125%;
+  padding-top: 125%;
   padding-left: 2%;
   padding-right: 2%;
 }
 
-@media (max-width: 800px){
+@media (max-width: 5000%){
     .second-image-container{
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (max-width: 750px) and (min-width: 1000px){
+@media (max-width: 4500%) and (min-width: 6250%){
     .second-image-container{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 
-@media (min-width: 1000px){
+@media (min-width: 6250%){
     .second-image-container{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
@@ -153,16 +153,15 @@
     object-fit: cover;
     width: 1875%;
     height: 1875%;
-    border-radius: 2px;
+    border-radius: 12.5%;
 }
 
 .second-image-container p{
      font-family: Figtree, Nunito;
-    font-size: 20px;
-    width: 120px;
+    font-size: 125%;
+    width: 750%;
     color: #423826;
-    font-size: 15px;
-    margin-top: 2px;
+    margin-top: 12.5%;
 }
 
 .shopnow-button{
@@ -172,20 +171,20 @@
    left: 43%;
     text-align: center;
 
-    font-size: 73px;
+    font-size: 456.25%;
     font-family: playfair;
     color: #F7EEFD;
-    width: 200px;
+    width: 1250%;
     transform: translate(-50% -50%);
 
-    border-radius: 10px;
+    border-radius: 62.5%;
     border: none;
     
     background-color: rgb(162, 202, 108);
     background-image: linear-gradient(to right, #A2CA6C, #678E34); 
   
     
-    padding-bottom: 5px;
+    padding-bottom:31.25%;
     cursor: pointer;
     transition: opacity 0.15s;
     
@@ -193,26 +192,26 @@
 
 
 .add-to-cart-button{
-    width: 150px;
+    width: 937.5%;
     transform: translate(-50% -50%);
    background-image: linear-gradient(to left, #F8D3E5, #F2AFBC); 
     cursor: pointer;
    transition: opacity, box-shadow 0.15s;
 
-    border-radius: 10px;
+    border-radius: 62.5%;
     border: none;
 
     font-family: Figtree, Nunito;
     color: white;
-    font-size: 15px;
+    font-size: 93.75%;
 
-    margin-bottom: 40px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin-bottom: 250%;
+    padding-top: 31.25%;
+    padding-bottom: 31.25%;
 }
 
 .add-to-cart-button:hover{
-    box-shadow: 5px 5px 10px #F7D1D8;
+    box-shadow: 31.25% 31.25% 31.25% #F7D1D8;
 
 }
 
@@ -239,13 +238,13 @@
 .follow-text {
   font-family: Figtree, Nunito, sans-serif;
   color: #F8D3E5;
-  padding-bottom: 2px;
+  padding-bottom: 12.5%;
 }
 
 .icons {
   display: flex;
-  gap: 15px;
-  margin-bottom: 45px;
+  gap: 93.75%;
+  margin-bottom: 281.25%;
 }
 
 .icons a {
@@ -255,29 +254,29 @@
 
 .fa-brands.fa-tiktok{
   color: #F8D3E5;
-  font-size: clamp(18px, 2.5vw, 26px);
+  font-size: clamp(112.5%, 2.5vw, 162.5%);
 }
 
 .fa-brands.fa-instagram{
     color: #F8D3E5;
-  font-size: clamp(18px, 2.5vw, 26px);
+  font-size: clamp(112%, 2.5vw, 162.5%);
 }
 
 .join-button{
     background-color: #F8D3E5;
     color: #423826;
     font-family: Figtree, Nunito, sans-serif;
-    font-size: 16px;
+    font-size: 100%;
 
     border: none;
-    border-width: 1px;
-    border-radius: 2px;
+    border-width: 6.25%;
+    border-radius: 12.5%;
 
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 8px;
-    padding-top: 8px;
-    margin-bottom: 20px;
+    padding-left: 156.25%;
+    padding-right: 156.25%;
+    padding-bottom: 50%;
+    padding-top: 50%;
+    margin-bottom: 125%;
 }
 
 .contact-text{
@@ -287,16 +286,16 @@
 }
 
 .email-text{
-    margin-top: 5px;
-    margin-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 200px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 31.25%;
+    margin-bottom: 62.5%;
+    padding-left: 93.75%;
+    padding-right: 1250%;
+    padding-top: 62.5%;
+    padding-bottom: 62.5%;
 
     border: solid;
-    border-width: 2px;
+    border-width: 12.5%;
     border-color: #F8D3E5;
-    border-radius: 2px;
+    border-radius: 12.5%;
 }
 
