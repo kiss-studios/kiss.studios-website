@@ -26,9 +26,9 @@
     color: #CDE9F5;
 
     padding-top:1.25rem;
-    padding-left:10px;
-    padding-right: 10px;
-    padding-bottom: 40px;
+    padding-left:0.625rem;
+    padding-right: 0.625;
+    padding-bottom: 2.5rem;
 
     overflow: hidden;
     position: fixed;
@@ -42,7 +42,7 @@
     position: relative;
     color: #F8D3E5;
     display: flex;
-    gap: 0.938rem;
+    gap: 93.75%;
     align-items: center;
 
 }
