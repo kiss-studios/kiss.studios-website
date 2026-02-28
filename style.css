@@ -17,13 +17,13 @@
     z-index: 100;
     align-items: center;
     transition: 0.15s;
+    background-color: #7EB6E6; 
      
      
 
     font-family: playfair;
     font-size: 1.888rem;
     font-weight: bold;
-    background-color: #7EB6E6; 
     color: #CDE9F5;
 
     padding-top:1.25rem;
