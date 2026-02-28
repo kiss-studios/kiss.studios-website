@@ -124,8 +124,8 @@
 .second-image-container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 156.25%;
-  row-gap: 250%;
+  column-gap: 25px;
+  row-gap: 40px;
 
   padding-bottom: 1.25rem;
   padding-top: 1.25rem;
