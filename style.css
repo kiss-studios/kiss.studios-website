@@ -301,9 +301,11 @@
     border-radius:0.125rem;
 }
 
-@media (max-width: 600px){
+@media screen and (max-width: 600px){
     .html,body {
         width: 100%;
     
     }
 }
+
+
