@@ -303,35 +303,35 @@
 
 @media (max-width: 600px){
     .html,body {
-        width: 100%;
+        width: 100vw;
     
     }
 }
 
 @media (max-width: 601px) {
     .container{
-        width: 100%;
+        width: 100vw;
         padding-left: 10px;
     }
 }
 
 @media (max-width: 768px) {
     .container{
-        width: 100%;
+        width: 100vw;
          padding-left: 10px;
     }
 }
 
 @media (max-width: 992px) {
     .container{
-        width: 100%;
+        width: 100vw;
          padding-left: 10px;
     }
 }
 
 @media (max-width: 1200px) {
     .container{
-        width: 100%;
+        width: 100vw;
          padding-left: 10px;
     }
 }
