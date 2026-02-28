@@ -240,13 +240,13 @@
 .follow-text {
   font-family: Figtree, Nunito, sans-serif;
   color: #F8D3E5;
-  padding-bottom: 1.125rem;
+  padding-bottom: 18px;
 }
 
 .icons {
   display: flex;
   gap: 5px;
-  margin-bottom: 2.813rem;
+  margin-bottom: 45px;
 }
 
 .icons a {
@@ -256,19 +256,19 @@
 
 .fa-brands.fa-tiktok{
   color: #F8D3E5;
-  font-size: clamp(1.125rem, 2.5vw, 1.625rem);
+  font-size: clamp(18px, 2.5vw,26px);
 }
 
 .fa-brands.fa-instagram{
     color: #F8D3E5;
-  font-size: clamp(1.125rem, 2.5vw, 1.625rem);
+  font-size: clamp(18px, 2.5vw, 26px);
 }
 
 .join-button{
     background-color: #F8D3E5;
     color: #423826;
     font-family: Figtree, Nunito, sans-serif;
-    font-size: 16;
+    font-size: 16px;
 
     border: none;
     border-width: 1px;
