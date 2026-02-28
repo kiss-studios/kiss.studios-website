@@ -302,10 +302,8 @@
 }
 
 @media (max-width: 600px){
-    .wrapper-main {
-        width: 10000px;
-        padding: 1000px;
-        margin: 0 auto;
+    .html,body {
+        width: 100%;
     
     }
 }
