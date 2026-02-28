@@ -245,7 +245,7 @@
 
 .icons {
   display: flex;
-  gap: 0.313rem;
+  gap: 5px;
   margin-bottom: 2.813rem;
 }
 
