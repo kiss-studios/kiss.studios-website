@@ -136,6 +136,7 @@
 @media (max-width: 600px){
     .second-image-container{
         grid-template-columns: 1fr;
+        align-items: center;
     }
 }
 
