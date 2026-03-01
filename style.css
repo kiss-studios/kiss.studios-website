@@ -44,15 +44,15 @@
 }
 
 .left-text{
-    align-items: start;
+    justify-content: flex-start;
 }
 
 .middle-text{
-    align-items: center;
+    justify-content: center;
 }
 
 .right-text{
-    align-items: end;
+    justify-content: flex-end;
 }
 
 .icon-container{
