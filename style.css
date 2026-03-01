@@ -12,10 +12,7 @@
 
 .top-bar{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     gap: 20px;
-    
     z-index: 100;
     align-items: center;
     transition: 0.15s;
