@@ -12,6 +12,8 @@
 
 .top-bar{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     
     z-index: 100;
     align-items: center;
@@ -43,8 +45,6 @@
 .icon-container{
     position: relative;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     gap: 6px;
     align-items: center;
 
