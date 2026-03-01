@@ -11,10 +11,7 @@
 
 
 .top-bar{
-    display: flex;
-    gap: 20px;
     z-index: 100;
-    align-items: center;
     transition: 0.15s;
     background-color: #7EB6E6;  
 
