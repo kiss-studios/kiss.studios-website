@@ -16,7 +16,7 @@
     background-color: #7EB6E6;  
     display: flex;
     flex-direction: row;
-    align-items: center;
+     justify-content: center;
 
     font-family: playfair;
     font-weight: bold;
