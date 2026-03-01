@@ -42,15 +42,15 @@
      padding-bottom: 40px;
 }
 
-.left{
+.left-text{
     align-items: start;
 }
 
-.middle{
+.middle-text{
     align-items: center;
 }
 
-.right{
+.right-text{
     align-items: end;
 }
 
