@@ -135,7 +135,7 @@
 
 @media (max-width: 600px){
     .second-image-container{
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
     }
 }
 
