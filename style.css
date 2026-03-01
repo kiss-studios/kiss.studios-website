@@ -56,11 +56,8 @@
     position: relative;
     display: flex;
     color: #F8D3E5;
-    justify-content: space-between;
     row-gap: 20px;
     align-items: center;
-
-    
 
 }
 
