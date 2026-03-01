@@ -55,7 +55,7 @@
 
     display: inline-block;
 
-    font-size: 1.875rem;
+    font-size: 30px;
 }
 
 .search-bar{
@@ -63,9 +63,9 @@
     border-radius: 10px;
    border: none;
    font-family: playfair;
-   padding-left: 0.625rem;
+   padding-left: 10px;
    background-color: #F8D3E5;
-   margin-top: 0.125rem;
+   margin-top: 2px;
 }
 
 .search-bar{
@@ -124,13 +124,13 @@
 .second-image-container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 1.563rem;
-  row-gap: 2.5rem;
+  column-gap: 25px;
+  row-gap: 40px;
 
-  padding-bottom: 1.25rem;
-  padding-top: 1.25rem;
-  padding-left: 0.781rem;
-  padding-right: 0.781rem;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 @media (max-width: 600px){
@@ -160,7 +160,7 @@
 
 .second-image-container p{
      font-family: Figtree, Nunito;
-      font-size: clamp(1.125rem, 2.5vw, 1.625rem);
+      font-size: clamp(18px, 2.5vw, 26px);
     width: 120px;
     color: #423826;
     margin-top: 0.125rem;
