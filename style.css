@@ -23,14 +23,14 @@
      
 
     font-family: playfair;
-    font-size: 1.888rem;
+    font-size: 12px;
     font-weight: bold;
     color: #CDE9F5;
 
-    padding-top:1.25rem;
-    padding-left:0.625rem;
-    padding-right: 0.625;
-    padding-bottom: 2.5rem;
+    padding-top:20px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
 
     overflow: hidden;
     position: fixed;
@@ -100,9 +100,9 @@
  
 .ourbest-sellers{
     font-family: Arial;
-        font-size: 1.538rem;
+        font-size: 24px;
         text-align: center;
-        margin-top: 1.875rem;
+        margin-top: 30px;
         margin-bottom: 0;
 
         color: #423826;
@@ -111,7 +111,7 @@
 .top-image-container{
     position: relative;
     width: 100%;
-    padding-top: 5.625rem;
+    padding-top: 90px;
 }
 
 .top-image{
