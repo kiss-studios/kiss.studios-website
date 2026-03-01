@@ -46,9 +46,7 @@
 
 .icon-container{
     position: relative;
-    display: flex;
     color: #F8D3E5;
-    row-gap: 20px;
     align-items: center;
     display: flex;
     justify-content: space-between;
