@@ -39,11 +39,14 @@
 
 .icon-container{
     position: relative;
-    color: #F8D3E5;
     display: flex;
     gap: 93.75%;
     align-items: center;
 
+}
+
+.icon-container i{
+    color: #F8D3E5;
 }
 
 .kiss-st{
