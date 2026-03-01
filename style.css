@@ -40,7 +40,7 @@
 .icon-container{
     position: relative;
     display: flex;
-    gap: 93.75%;
+    gap: 15px;
     align-items: center;
 
 }
