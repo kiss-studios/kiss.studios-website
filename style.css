@@ -133,13 +133,13 @@
   padding-right: 0.781rem;
 }
 
-@media (max-width: 750px){
+@media (max-width: 600px){
     .second-image-container{
         grid-template-columns: 1fr ;
     }
 }
 
-@media (max-width: 750px) and (min-width: 999px){
+@media (max-width: 600px) and (min-width: 999px){
     .second-image-container{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
