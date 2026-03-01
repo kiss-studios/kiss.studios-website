@@ -43,17 +43,6 @@
      padding-bottom: 40px;
 }
 
-.left-text{
-    justify-content: flex-start;
-}
-
-.middle-text{
-    justify-content: center;
-}
-
-.right-text{
-    justify-content: flex-end;
-}
 
 .icon-container{
     position: relative;
@@ -61,6 +50,10 @@
     color: #F8D3E5;
     row-gap: 20px;
     align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 
 }
 
