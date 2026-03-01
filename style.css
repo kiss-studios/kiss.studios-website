@@ -17,10 +17,7 @@
     z-index: 100;
     align-items: center;
     transition: 0.15s;
-    background-color: #7EB6E6;
-    background-image: linear-gradient(to right, #7EB6E6, #CDE9F5);
-     
-     
+    background-color: #7EB6E6;  
 
     font-family: playfair;
     font-size: 12px;
