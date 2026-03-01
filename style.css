@@ -228,12 +228,11 @@
   height: 100%;
   right: 0;
   left: 0;
-  padding-left: 10px;
+  padding-left: 7px;
   padding-bottom: 10px;
   padding-top: 2px;
 
-  background-color: #7EB6E6;
-  background-image: linear-gradient(to right, #7EB6E6, #CDE9F5); 
+  background-color: #7EB6E6; 
 }
 
 .follow-text {
