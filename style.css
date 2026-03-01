@@ -160,7 +160,7 @@
 
 .second-image-container p{
      font-family: Figtree, Nunito;
-      font-size: clamp(16px, 2.5vw, 18px);
+      font-size: clamp(1rem, 2.5vw, 1.125rem);
     width: 120px;
     border-radius: 2px;
     color: #423826;
