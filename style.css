@@ -42,6 +42,10 @@
 
 }
 
+.top-bar:hover{
+     padding-bottom: 40px;
+}
+
 .icon-container{
     position: relative;
     display: flex;
@@ -98,7 +102,7 @@
 .top-image-container{
     position: relative;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .top-image{
