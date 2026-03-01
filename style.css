@@ -163,6 +163,7 @@
      font-family: Figtree, Nunito;
       font-size: clamp(18px, 2.5vw, 26px);
     width: 120px;
+    border-radius: 2px;
     color: #423826;
     margin-top: 0.125rem;
 }
